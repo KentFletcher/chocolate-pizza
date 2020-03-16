@@ -1,49 +1,192 @@
 body{
-    margin: 20px 300px 20px 300px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+header {
+    width: 900px;
 }
 
 header div {
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: right;
-}
-
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    font-weight: normal;
-    
-}
-
-hr {
-    border-top-style: dashed;
-}
-
-#socialMedia {
-    float: right;
 }
 
 #logo {
     float: left;
+    width: 250px;
+}
+
+#fork-knife {
+    float: left;
+    padding-top: 15px;
 }
 
 h2{
     font-family: cursive;
-    font-size: 40px;
+    font-size: 35px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
 }
 
-main p {
-    padding: 20px;
+#logo h5 {
+    float: left;
+    padding-left: 0px;
+    font-size: 10px;
+    color: rgb(53, 52, 52);
+    width: 180px;
+}
+
+#socialMedia {
+    float: right;
+    padding-top: 40px;
+}
+
+#pint {
+    padding-right: 5px;
+}
+
+div header{
     display: inline-block;
 }
 
-#recipe{
-    position: relative;;
+hr {
+    border-top-style: dashed;
+    width: 900px;
+    float: left;;
 }
 
-div ul {
-    display: ;
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    padding-top: 50px; 
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+#articleTitle{
+    display: inline-block;
+    width: 900px;
+    height: 150px;
+}
+
+h5 {
+    width: 500px;
+    color: darkgrey;
+    font-size: 15px;
+}
+ 
+#print {
+    font-size: 13px;
+    float: right;
+    height: 20px;
+    width: 60px;
+    padding-bottom: 100px;
+}
+
+h6{
+    float: right;
+    color: darkgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #choco-pizza{
-    
+    padding-right: 150px;
+    width: 900px;
+}
+
+#recipe {
+    color: rgb(124, 114, 114);
+    font-size: 22px;
+    text-indent: 30px;
+}
+
+main {
+    width: 900px;
+}
+
+main p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+#yellowpaper {
+    padding-top: 10px;
+    position: absolute;
+    z-index: -10;
+}
+
+.list{
+    display: inline-block;
+    position: relative;
+    width:400px;
+    font-size: 25px;
+    font-family: monospace;
+    z-index: 100;
+    height: 200px;
+}
+
+#list1 {
+    padding-top: 0px;
+    padding-left: 70px;
+}
+
+#list2{
+    padding-top: 45px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+input{
+    width: 10px;
+    float: left;
+}
+
+#ingredients {
+    padding-bottom: 80px;
+}
+
+footer {
+    width: 900px;
+    padding-bottom: 80px;
+}
+
+#van {
+    float: left;
+    padding-top: 20px;
+}
+
+footer h3 {
+    float: left;
+    font-size: 20px;
+    color: rgb(51, 48, 48);
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#about-van {
+    float: left;
+    font-size: 18px;
+    color: rgb(104, 95, 95);
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+#idvan {
+    width: 650px;
+}
+
+#closing-logo {
+    padding-top: 80px;
+    display: center;
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(167, 161, 161);
 }
