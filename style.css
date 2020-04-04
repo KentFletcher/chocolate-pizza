@@ -24,7 +24,7 @@ header div {
 }
 
 h2{
-    font-family: cursive;
+    font-family: 'Yellowtail', cursive;
     font-size: 35px;
     float: left;
     padding-left: 10px;
@@ -52,10 +52,11 @@ div header{
     display: inline-block;
 }
 
-hr {
-    border-top-style: dashed;
+#border {
+    background-image: url(img/hr-img.png);
     width: 900px;
-    float: left;;
+    height: 12px;
+    
 }
 
 h1{
