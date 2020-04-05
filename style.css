@@ -14,18 +14,19 @@ header div {
 }
 
 #logo {
-    float: left;
+    display: inline-block;
     width: 250px;
+    margin-bottom: 10px;
 }
 
 #fork-knife {
     float: left;
-    padding-top: 15px;
+    margin-top: 18px;
 }
 
 h2{
     font-family: 'Yellowtail', cursive;
-    font-size: 35px;
+    font-size: 40px;
     float: left;
     padding-left: 10px;
     padding-top: 15px;
@@ -33,10 +34,10 @@ h2{
 
 #logo h5 {
     float: left;
-    padding-left: 0px;
-    font-size: 10px;
-    color: rgb(53, 52, 52);
-    width: 180px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    color:  darkgrey;
+    width: 150px;
 }
 
 #socialMedia {
@@ -59,38 +60,30 @@ div header{
     
 }
 
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
-    padding-top: 50px; 
-    padding-bottom: 10px;
-    width: 500px;
-}
-
 #articleTitle{
     display: inline-block;
+    font-family: 'Oswald', sans-serif;
     width: 900px;
-    height: 150px;
 }
 
-h5 {
-    width: 500px;
+h1{
+    font-weight: bolder;
+    font-size: 45px;
+    padding-top: 50px; 
+}
+
+#articleTitle p {
     color: darkgrey;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
 }
  
 #print {
-    font-size: 13px;
     float: right;
-    height: 20px;
-    width: 60px;
-    padding-bottom: 100px;
-}
-
-h6{
-    float: right;
-    color: darkgrey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #choco-pizza{
@@ -98,20 +91,17 @@ h6{
     width: 900px;
 }
 
-#recipe {
-    color: rgb(124, 114, 114);
-    font-size: 22px;
-    text-indent: 30px;
-}
-
 main {
     width: 900px;
 }
 
-main p {
-    padding-top: 20px;
-    padding-bottom: 20px;
+#recipe p {
+    margin-top: 30px;
     display: inline-block;
+    color: rgb(124, 114, 114);
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 1.75rem;
 }
 
 #yellowpaper {
@@ -120,36 +110,40 @@ main p {
     z-index: -10;
 }
 
-.list{
-    display: inline-block;
+#ingredients {
+    margin-top: 22px;
+    margin-bottom: 60px;
+    height: 300px;
+    width: 900px;
     position: relative;
-    width:400px;
     font-size: 25px;
-    font-family: monospace;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(124, 114, 114);
     z-index: 100;
-    height: 200px;
 }
 
 #list1 {
-    padding-top: 0px;
-    padding-left: 70px;
+    display: inline-block;
+    margin-left: 70px;
+    width: 350px;
 }
 
 #list2{
-    padding-top: 45px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 350px;
+
 }
 
 li {
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 
 input{
-    width: 10px;
-    float: left;
-}
-
-#ingredients {
-    padding-bottom: 80px;
+    width: 20px;
+    opacity: 0.5;
+    color: rgb(124, 114, 114);
 }
 
 footer {
@@ -158,36 +152,57 @@ footer {
 }
 
 #van {
-    float: left;
+    width: 960px;
+    margin-bottom: 60px;
+}
+
+#imgVan {
+    display: inline-block;
     padding-top: 20px;
+}
+
+#aboutVan {
+    width: 560px;
 }
 
 footer h3 {
-    float: left;
     font-size: 20px;
     color: rgb(51, 48, 48);
-    padding-top: 20px;
-    padding-left: 15px;
+    margin-bottom: 10px;
+    width: 300px;
 }
 
-#about-van {
-    float: left;
-    font-size: 18px;
+#bioText{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 19px;
     color: rgb(104, 95, 95);
-    padding-left: 20px;
-    padding-top: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    width: 800px;
 }
 
-#idvan {
-    width: 650px;
+#shareButton {
+    background-color: rgb(211, 88, 7);
+    color: seashell;
+    padding:14px 33px 14px 33px;
+    font-size: 18px;
+    float: right;
 }
 
 #closing-logo {
-    padding-top: 80px;
-    display: center;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #copyright {
     text-align: center;
     color: rgb(167, 161, 161);
+    font-size: 16px;
+}
+hr {
+    display: inline-block;
+    width: 420px;
+    opacity: .25;
 }
